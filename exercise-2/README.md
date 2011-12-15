@@ -11,7 +11,7 @@ This class should handle the following design goals:
 
    - it might have to handle a large number of events from multiple threads
    - we care more about recent data, then older data
-   - recording event should be as fast as possible, views can be slower
+   - recording an event should be as fast as possible, views can be slower
 
 There are two files in this directory:
 
