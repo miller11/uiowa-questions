@@ -20,11 +20,4 @@ public class MeteredListTest extends Assert {
 	  // This should test the ability to output streams of data 
 	  // showing activity over the past 1h, 4h, and 24h
    }
-
-   @Test
-   public void testMultiThreaded() {
-	  // This should ensure that you can record data accurately
-	  // from multiple concurrent threads
-   }
-	
 }

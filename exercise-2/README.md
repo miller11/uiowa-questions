@@ -9,7 +9,7 @@ graphs of the data over different time periods.
 
 This class should handle the following design goals:
 
-   - it might have to handle a large number of events from multiple threads
+   - it might have to handle a large number of events
    - we care more about recent data, then older data
    - recording an event should be as fast as possible, views can be slower
 
