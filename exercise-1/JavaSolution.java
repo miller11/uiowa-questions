@@ -13,7 +13,7 @@ public class JavaSolution {
 
 
         try {
-            DataInputStream dataInputStream = new DataInputStream( new FileInputStream("F:\\Projects\\uiowa-questions\\exercise-1\\uiowa.example.log.2011-11-14"));
+            DataInputStream dataInputStream = new DataInputStream( new FileInputStream("uiowa.example.log.2011-11-14"));
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(dataInputStream));
             String inputLine = bufferedReader.readLine();
 
